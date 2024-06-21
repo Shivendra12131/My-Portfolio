@@ -10,7 +10,7 @@ import frescoGuardImg from "../../public/frescoGuard.png";
 export const projectList = [
   {
     id: 4,
-    title: "StudyNotion An Edtech Platform",
+    title: "Share-me",
     category: "Full Stack",
     tag: "top",
     image: shareMeImg,
