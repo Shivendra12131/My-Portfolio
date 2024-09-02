@@ -208,15 +208,35 @@ export const socials = [
 ];
 
 export const WorkExpcontents = [
-  {
-    title: "SDE Intern - Xingoda",
+   {
+    title: "Web Developer - Anonymous Squirrels",
     description: [
       "Developed a comprehensive admin application with React, Tailwind CSS, and Material Tailwind, featuring phone OTP authentication using Firebase Authentication for secure access.",
       "Built and optimized RESTful APIs with Firebase Functions, utilizing Node-Cache for enhanced performance and pagination with infinite scrolling.",
       "Implemented Firebase Firestore for efficient data management, enabling admins to control user/vendor profiles, manage enquiries and reports, and implement role-based access control for Superadmin, Admin-1, and Admin-2 roles.",
     ],
-    date: "April 2024 - June 2024",
+    date: "May 2024 - July 2024",
+  },
+    {
+    title: "Full Stack developer - HealmeRight",
+    description: [
+      "Developed a backend logging system to track user activity, implementing secure user authentication with OAuth 2.0 and JSON Web Tokens (JWT) for enhanced security in the web app.",
+      "Designed an efficient MongoDB schema for user data, optimizing data management and retrieval processes.",
+      "Created an interactive meal configuration interface, improving usability and user experience by enabling dynamic meal setup and customization features.",
+    ],
+    date: "Feb 2024 - Apr 2024",
+  },
+  {
+    title: "Teaching Assistant -Coding Minutes",
+    description:[
+      "Designed and implemented interactive coding exercises and challenges to engage a diverse student base of 500+ learners in a batch.",
+      "Facilitated 10+ live coding sessions, offering real-time feedback.",
+      "Tech Stack: C++, Algorithms and Data Structures, Software Engineering, OOPS, Database Management"
+    ],
+    date: "Oct 2023- Jan 2024",
+    
   }
+  
 ];
 
 export  const commandsAnswers = {
