@@ -10,114 +10,74 @@ import frescoGuardImg from "../../public/frescoGuard.png";
 export const projectList = [
   {
     id: 4,
-    title: "Share-me",
+    title: "Study-Notion ",
     category: "Full Stack",
     tag: "top",
     image: shareMeImg,
     description:
-      "This web application allows users to shares photographs and showcase their photography skills and download them. ",
+      "StudyNotion is a robust ed-tech platform that empowers users to create, consume, and rate educational content seamlessly. It features a Razorpay-integrated payment gateway for smooth transactions and uses RESTful APIs to manage backend services efficiently. Instructors can effortlessly upload and manage courses, while students can purchase and access them. The platform also allows users to provide valuable feedback through ratings and reviews, ensuring quality content for all. ",
     tech: [
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
       "https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg",
       "https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg"
     ],
-    url: "https://shareme-frontend-kappa.vercel.app/",
-    github: "https://github.com/Laksheya/shareme",
-    features: [""],
+    url: "studynotionf.vercel.app",
+    github: "https://github.com/Shivendra12131/studynotionf",
+    features: ["Course Creation: Instructors can easily upload and manage their courses."
+"Content Consumption: Students can purchase and access educational content."
+"Ratings and Reviews: Users can rate and review courses to provide feedback."
+"Payment Integration: Integrated Razorpay payment gateway for seamless transactions."
+	"RESTful API Integration: Ensures efficient communication between client and server for smooth backend services."
+               ],
     detailedDescription:
-      "This project implements GitOps methodology for managing infrastructure, specifically for a web application. It utilizes Argo CD for continuous delivery and integrates with Kubernetes for container orchestration.",
+      "StudyNotion is a robust ed-tech platform that empowers users to create, consume, and rate educational content seamlessly. It features a Razorpay-integrated payment gateway for smooth transactions and uses RESTful APIs to manage backend services efficiently. Instructors can effortlessly upload and manage courses, while students can purchase and access them. The platform also allows users to provide valuable feedback through ratings and reviews, ensuring quality content for all.",
   },
-  // {
-  //   id: 1,
-  //   tag: "top",
-  //   title: "Flight-Booking-Backend",
-  //   category: "backend",
-  //   image: nodejsImg,
-  //   description:
-  //     "Developed complete backend microservices-based project including four services: Flights, Booking, Authentication, Notification using: ExpressJs, MySQL, REST APIs , rabbitmq and npm packages (rate limiter,proxy,cron jobs,JWT) also Solved common booking problems",
-  //   tech: [
-  //     "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg",
-  //     "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg",
-  //     "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rabbitmq/rabbitmq-original.svg",
-  //     "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original-wordmark.svg",
-  //     "https://w7.pngwing.com/pngs/925/447/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo.png",
-  //   ],
-  //   url: undefined,
-  //   github: "https://github.com/siddanth-6365/Flight-Booking-Backend",
-  //   features: [],
-  // },
-  // {
-  //   id: 2,
-  //   title: "leetcode-stats-api",
-  //   category: "backend",
-  //   image: leetcodeStatsImg,
-  //   description:
-  //     "This project aims to enhance the accessibility and ease of integration for developers using LeetCode data by converting the existing LeetCode API, which is based on GraphQL, into a RESTful API. The primary goal is to provide a straightforward way for developers to retrieve valuable statistics and information about LeetCode users and their problem-solving activities.",
-  //   tech: [
-  //     "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg",
-  //     "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/graphql/graphql-plain.svg",
-  //   ],
-  //   url: "https://leetcode-restful-api.vercel.app/",
-  //   github: "https://github.com/siddanth-6365/leetcode-Stats-api",
-  //   features: [],
-  // },
-  // {
-  //   id: 3,
-  //   title: "Personal Portfolio",
-  //   category: "frontend",
-  //   image: portfolioImg,
-  //   description:
-  //     "portfolio website, built with Next.js along with Aceternity UI and Tailwind CSS showcases my skills, work experience and projects. The site includes a contact form, powered by Nodemailer, allowing you to easily reach out to me.",
-  //   tech: [
-  //     "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
-  //     "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
-  //     "https://ui.aceternity.com/_next/image?url=%2Flogo.png&w=128&q=75",
-  //   ],
-  //   url: "siddanth.live",
-  //   github: "https://github.com/siddanth-6365/portfolio",
-  //   features: [
-  //     "Sleek and modern design",
-  //     "Built with Next.js for server-side rendering",
-  //     "Utilizes Tailwind CSS for responsive styling",
-  //     "Animated transitions powered by Framer Motion",
-  //   ],
-  //   detailedDescription:
-  //     "This project is a personal portfolio website showcasing the developer's skills and projects. It features a sleek and modern design implemented with Next.js, a React framework for server-side rendering.",
-  // },
-  // {
-  //   id: 4,
-  //   title: "Jaypee-Maps",
-  //   category: "c++",
-  //   image: cppImg,
-  //   description:
-  //     "created Jaypee Maps, a campus navigation system utilizing graph data structures and algorithms to optimize movement within College.The system calculates shortest paths based on user-selected locations and transportation modes",
-  //   tech: [
-  //     "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg",
-  //   ],
-  //   url: undefined,
-  //   github: "https://github.com/siddanth-6365/Jaypee-Maps",
-  //   features: [],
-  //   detailedDescription:
-  //     "created Jaypee Maps, a campus navigation system utilizing graph data structures and algorithms to optimize movement within College.The system calculates shortest paths based on user-selected locations and transportation modes, streamlining navigation with features like location selection and travel time estimation. This project showcased my skills in applying data structures and algorithms to solve real-world problems",
-  // },
-  // {
-  //   id: 5,
-  //   title: "Prop-X",
-  //   category: "blockchain",
-  //   image: propxImg,
-  //   description:
-  //     "PropX is a cutting-edge platform dedicated to revolutionizing real estate transactions and property management using blockchain technology, specifically Ethereum. Our mission is to enhance transparency, security, and efficiency in property dealings, making it more accessible to a global audience.",
-  //   tech: [
-  //     ethereumImg,
-  //     "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
-  //   ],
-  //   url: undefined,
-  //   github: "https://github.com/siddanth-6365/Prop-X",
-  //   features: [],
-  //   detailedDescription:
-  //     "PropX is a cutting-edge platform dedicated to revolutionizing real estate transactions and property management using blockchain technology, specifically Ethereum. Our mission is to enhance transparency, security, and efficiency in property dealings, making it more accessible to a global audience.",
-  // },
+  {
+    id: 1,
+    tag: "top",
+    title: "Hoste-Buddy (A collaborative Web App for hostel needs",
+    category: "FullStack",
+    image: nodejsImg,
+    description:
+      "HostelBuddy is a web app designed to enable students within a college to borrow and share items with ease. With over 100 active users, the platform enhances resource efficiency by allowing students to search for available items, submit borrowing requests, and manage approvals. Key features include an intuitive item search function, a streamlined request submission form specifying borrowing duration, an approval process for item owners, and automated return alerts via email, ensuring timely returns.",
+    tech: [
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rabbitmq/rabbitmq-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original-wordmark.svg",
+      "https://w7.pngwing.com/pngs/925/447/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo.png",
+    ],
+    url: undefined,
+    github: "https://github.com/siddanth-6365/Flight-Booking-Backend",
+    features: [
+      
+    ],
+  },
+  
+  {
+    id: 3,
+    title: "Personal Portfolio",
+    category: "frontend",
+    image: portfolioImg,
+    description:
+      "portfolio website, built with Next.js along with Aceternity UI and Tailwind CSS showcases my skills, work experience and projects. The site includes a contact form, powered by Nodemailer, allowing you to easily reach out to me.",
+    tech: [
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+      "https://ui.aceternity.com/_next/image?url=%2Flogo.png&w=128&q=75",
+    ],
+    url: "https://my-portfolio-shivendra.vercel.app/",
+    github: "https://github.com/Shivendra12131/My-Portfolio",
+    features: [
+      "Sleek and modern design",
+      "Built with Next.js for server-side rendering",
+      "Utilizes Tailwind CSS for responsive styling",
+      "Animated transitions powered by Framer Motion",
+    ],
+    detailedDescription:
+      "This project is a personal portfolio website showcasing the developer's skills and projects. It features a sleek and modern design implemented with Next.js, a React framework for server-side rendering.",
+  },
   // {
   //   id: 5,
   //   title: "FrescoGuard",
@@ -210,11 +170,10 @@ export const socials = [
 export const WorkExpcontents = [
    {
     title: "Web Developer - Anonymous Squirrels",
-    description: [
-      "Developed a comprehensive admin application with React, Tailwind CSS, and Material Tailwind, featuring phone OTP authentication using Firebase Authentication for secure access.",
-      "Built and optimized RESTful APIs with Firebase Functions, utilizing Node-Cache for enhanced performance and pagination with infinite scrolling.",
-      "Implemented Firebase Firestore for efficient data management, enabling admins to control user/vendor profiles, manage enquiries and reports, and implement role-based access control for Superadmin, Admin-1, and Admin-2 roles.",
-    ],
+   description: [
+  "Developed a dynamic Contact Us page and interactive reviews slider using React.js and Tailwind CSS, enhancing user engagement and website functionality.",
+  "Built a responsive project showcase section with React.js and Material-UI, incorporating a sleek design and intuitive navigation for improved user experience."
+  ],
     date: "May 2024 - July 2024",
   },
     {
