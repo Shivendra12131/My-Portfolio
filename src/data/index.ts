@@ -77,7 +77,7 @@ export const projectList = [
     ],
     detailedDescription:
       "This project is a personal portfolio website showcasing the developer's skills and projects. It features a sleek and modern design implemented with Next.js, a React framework for server-side rendering.",
-  },
+  }
   // {
   //   id: 5,
   //   title: "FrescoGuard",
