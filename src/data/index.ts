@@ -168,14 +168,6 @@ export const socials = [
 ];
 
 export const WorkExpcontents = [
-   {
-    title: "Web Developer - Anonymous Squirrels",
-   description: [
-  "Developed a dynamic Contact Us page and interactive reviews slider using React.js and Tailwind CSS, enhancing user engagement and website functionality.",
-  "Built a responsive project showcase section with React.js and Material-UI, incorporating a sleek design and intuitive navigation for improved user experience."
-  ],
-    date: "May 2024 - July 2024",
-  },
     {
     title: "Full Stack developer - HealmeRight",
     description: [
@@ -183,7 +175,15 @@ export const WorkExpcontents = [
       "Designed an efficient MongoDB schema for user data, optimizing data management and retrieval processes.",
       "Created an interactive meal configuration interface, improving usability and user experience by enabling dynamic meal setup and customization features.",
     ],
-    date: "Feb 2024 - Apr 2024",
+    date: "Apr 2024 - July 2024",
+  },
+   {
+    title: "Web Developer - Anonymous Squirrels",
+   description: [
+  "Developed a dynamic Contact Us page and interactive reviews slider using React.js and Tailwind CSS, enhancing user engagement and website functionality.",
+  "Built a responsive project showcase section with React.js and Material-UI, incorporating a sleek design and intuitive navigation for improved user experience."
+  ],
+    date: "Jan 2024 - MAr 2024",
   },
   {
     title: "Teaching Assistant -Coding Minutes",
