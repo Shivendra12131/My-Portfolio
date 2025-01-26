@@ -11,7 +11,7 @@ const Projects = () => {
                 Things I&apos;ve built{" "}
             </p>
 
-            <ProjectGrid projectList={projectList} />
+            <ProjectGrid projectList={projectList.sort((a, b) => a.id - b.id)} />
 
         </div>
     );
