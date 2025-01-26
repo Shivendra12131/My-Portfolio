@@ -1,62 +1,70 @@
 import shareMeImg from "../../public/shareme.png";
-import portfolioImg from "../../public/portfolio.png";
+import StudyNotion from "../../public/StudyNotion.jpeg";
+import portfolioImg from "../../public/portfolio.jpeg";
 import leetcodeStatsImg from "../../public/leetcode-stats.png";
 import nodejsImg from "../../public/nodejs.png";
 import cppImg from "../../public/c++.png";
 import ethereumImg from "../../public/ethereum.svg";
 import propxImg from "../../public/propx.png";
 import frescoGuardImg from "../../public/frescoGuard.png";
+import HostelBuddy from "../../public/HostelBuddy.png";
+import leetcode from "../../public/leetcode.svg";
 
 export const projectList = [
   {
-    id: 4,
-    title: "Study-Notion ",
-    category: "Full Stack",
+    id: 3,
+    title: "Share-me",
+    category: "frontend",
     tag: "top",
     image: shareMeImg,
     description:
-      "StudyNotion is a robust ed-tech platform that empowers users to create, consume, and rate educational content seamlessly. It features a Razorpay-integrated payment gateway for smooth transactions and uses RESTful APIs to manage backend services efficiently. Instructors can effortlessly upload and manage courses, while students can purchase and access them. The platform also allows users to provide valuable feedback through ratings and reviews, ensuring quality content for all. ",
+      "This web application allows users to shares photographs and showcase their photography skills and download them. ",
     tech: [
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
       "https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg",
       "https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg"
     ],
-    url: "studynotionf.vercel.app",
-    github: "https://github.com/Shivendra12131/studynotionf",
-    features: ["Course Creation: Instructors can easily upload and manage their courses."
-"Content Consumption: Students can purchase and access educational content."
-"Ratings and Reviews: Users can rate and review courses to provide feedback."
-"Payment Integration: Integrated Razorpay payment gateway for seamless transactions."
-	"RESTful API Integration: Ensures efficient communication between client and server for smooth backend services."
-               ],
+    url: "https://shareme-frontend-kappa.vercel.app/",
+    github: "https://github.com/Laksheya/shareme",
+    features: [""],
     detailedDescription:
-      "StudyNotion is a robust ed-tech platform that empowers users to create, consume, and rate educational content seamlessly. It features a Razorpay-integrated payment gateway for smooth transactions and uses RESTful APIs to manage backend services efficiently. Instructors can effortlessly upload and manage courses, while students can purchase and access them. The platform also allows users to provide valuable feedback through ratings and reviews, ensuring quality content for all.",
+      "This project implements GitOps methodology for managing infrastructure, specifically for a web application. It utilizes Argo CD for continuous delivery and integrates with Kubernetes for container orchestration.",
   },
   {
-    id: 1,
+    id:2,
+    title: "Study-Notion",
+    category: "Full Stack",
     tag: "top",
-    title: "Hoste-Buddy (A collaborative Web App for hostel needs",
-    category: "FullStack",
-    image: nodejsImg,
+    image: StudyNotion,
     description:
-      "HostelBuddy is a web app designed to enable students within a college to borrow and share items with ease. With over 100 active users, the platform enhances resource efficiency by allowing students to search for available items, submit borrowing requests, and manage approvals. Key features include an intuitive item search function, a streamlined request submission form specifying borrowing duration, an approval process for item owners, and automated return alerts via email, ensuring timely returns.",
-    tech: [
-      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg",
-      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg",
-      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rabbitmq/rabbitmq-original.svg",
-      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original-wordmark.svg",
-      "https://w7.pngwing.com/pngs/925/447/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo.png",
+    "StudyNotion is a fully functional EdTech platform built using the MERN stack, tailored for admins, instructors, and students. The platform features a secure Razorpay payment gateway integration for seamless course purchases. Instructors can manage courses effectively, while students can easily buy and access learning content. The system also includes a robust feedback mechanism where users can provide ratings and reviews. With over 15 RESTful APIs, the application ensures smooth communication between the client and server.",
+    tech:[
+
     ],
-    url: undefined,
-    github: "https://github.com/siddanth-6365/Flight-Booking-Backend",
-    features: [
-      
-    ],
-  },
-  
+    url: "",
+    github: "",
+    features: [""],
+    detailedDescription:
+    "StudyNotion is a fully functional EdTech platform built using the MERN stack, tailored for admins, instructors, and students. The platform features a secure Razorpay payment gateway integration for seamless course purchases. Instructors can manage courses effectively, while students can easily buy and access learning content. The system also includes a robust feedback mechanism where users can provide ratings and reviews. With over 15 RESTful APIs, the application ensures smooth communication between the client and server.",
+},
+  // {
+  //   id: 2,
+  //   title: "leetcode-stats-api",
+  //   category: "backend",
+  //   image: leetcodeStatsImg,
+  //   description:
+  //     "This project aims to enhance the accessibility and ease of integration for developers using LeetCode data by converting the existing LeetCode API, which is based on GraphQL, into a RESTful API. The primary goal is to provide a straightforward way for developers to retrieve valuable statistics and information about LeetCode users and their problem-solving activities.",
+  //   tech: [
+  //     "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg",
+  //     "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/graphql/graphql-plain.svg",
+  //   ],
+  //   url: "https://leetcode-restful-api.vercel.app/",
+  //   github: "https://github.com/siddanth-6365/leetcode-Stats-api",
+  //   features: [],
+  // },
   {
-    id: 3,
+    id: 4,
     title: "Personal Portfolio",
     category: "frontend",
     image: portfolioImg,
@@ -68,7 +76,8 @@ export const projectList = [
       "https://ui.aceternity.com/_next/image?url=%2Flogo.png&w=128&q=75",
     ],
     url: "https://my-portfolio-shivendra.vercel.app/",
-    github: "https://github.com/Shivendra12131/My-Portfolio",
+    
+    github: "https://github.com/siddanth-6365/portfolio",
     features: [
       "Sleek and modern design",
       "Built with Next.js for server-side rendering",
@@ -77,7 +86,43 @@ export const projectList = [
     ],
     detailedDescription:
       "This project is a personal portfolio website showcasing the developer's skills and projects. It features a sleek and modern design implemented with Next.js, a React framework for server-side rendering.",
-  }
+  },
+  {
+    id: 1,
+    title: "HostelBuddy",
+    category: "FullStack",
+    image: HostelBuddy,
+    description:
+      "HostelBuddy is a full-stack web application designed to simplify item sharing among college students. It allows users to lend or borrow items efficiently, with key features like item search, borrowing requests, and real-time status updates. ",
+      tech: [
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+        "https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg",
+        "https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg"
+      ],
+    url: "https://hostelbuddy-nine.vercel.app/",
+    github: "https://github.com/Shivendra12131/Hostel_Buddy",
+    features: [],
+    detailedDescription:
+    "HostelBuddy is a full-stack web application designed to simplify item sharing among college students. It allows users to lend or borrow items efficiently, with key features like item search, borrowing requests, and real-time status updates. Trusted by over 100 students, the platform ensures smooth interactions with timely email notifications and secure user authentication. This project highlights expertise in ReactJS, Node.js, and MongoDB, showcasing practical use of backend integration, responsive UI components, and user-centric features.",
+},
+  // {
+  //   id: 5,
+  //   title: "Prop-X",
+  //   category: "blockchain",
+  //   image: propxImg,
+  //   description:
+  //     "PropX is a cutting-edge platform dedicated to revolutionizing real estate transactions and property management using blockchain technology, specifically Ethereum. Our mission is to enhance transparency, security, and efficiency in property dealings, making it more accessible to a global audience.",
+  //   tech: [
+  //     ethereumImg,
+  //     "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
+  //   ],
+  //   url: undefined,
+  //   github: "https://github.com/siddanth-6365/Prop-X",
+  //   features: [],
+  //   detailedDescription:
+  //     "PropX is a cutting-edge platform dedicated to revolutionizing real estate transactions and property management using blockchain technology, specifically Ethereum. Our mission is to enhance transparency, security, and efficiency in property dealings, making it more accessible to a global audience.",
+  // },
   // {
   //   id: 5,
   //   title: "FrescoGuard",
@@ -143,12 +188,11 @@ export const skills = [
 export const socials = [
   {
     id: 1,
-    name: "Twitter",
-    username: "Shivendra Singh",
-    url: "https://x.com/Shiv1213141",
-    image:
-      "https://images.unsplash.com/photo-1611605698335-8b1569810432?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-  },
+    name: "leetcode",
+    username: "Shiv12131",
+    url: "https://leetcode.com/u/shiv12131/",
+    image: leetcode 
+  },  
   {
     id: 2,
     name: "Github",
@@ -166,36 +210,46 @@ export const socials = [
       "https://images.rawpixel.com/image_png_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjk4Mi1kNS0xMF8xLnBuZw.png",
   },
 ];
-
 export const WorkExpcontents = [
-    {
-    title: "Full Stack developer - HealmeRight",
+  {
+    title: "Full Stack Developer Intern - Techolution",
     description: [
-      "Developed a backend logging system to track user activity, implementing secure user authentication with OAuth 2.0 and JSON Web Tokens (JWT) for enhanced security in the web app.",
-      "Designed an efficient MongoDB schema for user data, optimizing data management and retrieval processes.",
-      "Created an interactive meal configuration interface, improving usability and user experience by enabling dynamic meal setup and customization features.",
+      "Developed and implemented backend APIs for orchestrating data storage and managing LLM agent interactions, ensuring seamless integration and efficient communication between services.",
+      "Built the LLM Studio Dashboard using TanStack Query for efficient asynchronous API calls, enabling real-time updates and seamless user interactions.",
+      "Designed reusable inheritance flows to streamline and reuse agents across multiple AI assistants, enhancing scalability and maintainability.",
+      "Optimized API performance, reducing latency from 1200ms to 2.5ms using MongoDB aggregation pipelines.",
+      "Created the Thinking Steps Dashboard to facilitate interactive chats with AI agents, significantly improving the user experience.",
     ],
-    date: "Apr 2024 - July 2024",
-  },
-   {
-    title: "Web Developer - Anonymous Squirrels",
-   description: [
-  "Developed a dynamic Contact Us page and interactive reviews slider using React.js and Tailwind CSS, enhancing user engagement and website functionality.",
-  "Built a responsive project showcase section with React.js and Material-UI, incorporating a sleek design and intuitive navigation for improved user experience."
-  ],
-    date: "Jan 2024 - MAr 2024",
+    date: "Nov 2024 - Present",
   },
   {
-    title: "Teaching Assistant -Coding Minutes",
-    description:[
-      "Designed and implemented interactive coding exercises and challenges to engage a diverse student base of 500+ learners in a batch.",
-      "Facilitated 10+ live coding sessions, offering real-time feedback.",
-      "Tech Stack: C++, Algorithms and Data Structures, Software Engineering, OOPS, Database Management"
+    title: "Full Stack Developer Intern - HealmeRight",
+    description: [
+      "Improved database performance by 40%, reducing query execution time from 1.5s to 800ms for 500+ users, using MongoDB connection pooling and efficient indexing.",
+      "Built a Winston logging system to track backend errors and login attempts, enhancing debugging and monitoring capabilities.",
+      "Developed secure web APIs with JWT and cookies to support user authentication, improving backend processes.",
+      "Designed and optimized responsive website components with interactive features using ReactJS, Tailwind CSS, and Framer Motion to enhance user experience.",
     ],
-    date: "Oct 2023- Jan 2024",
-    
-  }
-  
+    date: "Apr 2024 - Jul 2024",
+  },
+  {
+    title: "Web Developer - Anonymous Squirrels",
+    description: [
+      "Developed a comprehensive admin application using React, Tailwind CSS, and Material Tailwind, with secure phone OTP authentication via Firebase Authentication.",
+      "Built and optimized RESTful APIs using Firebase Functions, leveraging Node-Cache for performance improvement and implementing pagination with infinite scrolling.",
+      "Utilized Firebase Firestore for efficient data management, enabling admins to control user/vendor profiles, manage inquiries and reports, and implement role-based access control for Superadmin, Admin-1, and Admin-2 roles.",
+    ],
+    date: "May 2024 - Jul 2024",
+  },
+  {
+    title: "Teaching Assistant - Coding Minutes",
+    description: [
+      "Designed and implemented interactive coding exercises and challenges to engage a diverse student base of 500+ learners in a batch.",
+      "Facilitated 10+ live coding sessions, offering real-time feedback and helping learners strengthen their understanding of core concepts.",
+      "Tech Stack: C++, Algorithms and Data Structures, Software Engineering, OOPS, Database Management.",
+    ],
+    date: "Oct 2023 - Jan 2024",
+  },
 ];
 
 export  const commandsAnswers = {
