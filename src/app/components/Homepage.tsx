@@ -13,9 +13,9 @@ export default function HeroPage() {
                 <IconCloud />
                 <div className="flex flex-col items-center justify-center ">
                     <Hero />
-                    <ShinyButton text="Resume" link="https://drive.google.com/file/d/1vIZB_-IR7JtCvhRLEV1THuDy3dGoX_yz/view?usp=sharing" />
+                    <ShinyButton text="Resume" link="https://drive.google.com/file/d/1bWtfRmw04pNO20O4gOtKDG5_-iXRJBE-/view?usp=sharing" />
                     <div className="flex flex-row items-center justify-center mt-4 md:mt-6 mr-8 w-full">
-                        <AnimatedTooltip items={socials} />
+                    <AnimatedTooltip items={socials.sort((a, b) => a.id - b.id)} />
                     </div>
                 </div>
             </HeroHighlight>
