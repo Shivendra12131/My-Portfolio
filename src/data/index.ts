@@ -212,6 +212,17 @@ export const socials = [
 ];
 export const WorkExpcontents = [
   {
+    title: "Full Stack Developer - Techolution",
+    description: [
+      "Architected a real-time messaging backend for Enterprise GPT using GraphQL, WSS, and Pub/Sub, designing scalable APIs with GCP PubSub and Azure Service Bus for seamless LLM communication.",
+      "Building robust backend systems handling over 10,000 daily interactive chats with 99% uptime, reducing API failures by 50%.",
+      "Engineered a backend governance framework (GGC) to standardize 50+ AI agents, publishing 3+ NPM packages that increased development velocity and ensured regulatory compliance.",
+      "Optimized API performance using MongoDB aggregation pipelines, reducing latency from 1200ms to 2.5ms.",
+      "Developed the LLM Studio Dashboard using TanStack Query for efficient asynchronous API calls, enabling real-time updates and seamless user interactions.",
+    ],
+    date: "Jul 2025 - Present",
+  },
+  {
     title: "Full Stack Developer Intern - Techolution",
     description: [
       "Developed and implemented backend APIs for orchestrating data storage and managing LLM agent interactions, ensuring seamless integration and efficient communication between services.",
@@ -220,12 +231,12 @@ export const WorkExpcontents = [
       "Optimized API performance, reducing latency from 1200ms to 2.5ms using MongoDB aggregation pipelines.",
       "Created the Thinking Steps Dashboard to facilitate interactive chats with AI agents, significantly improving the user experience.",
     ],
-    date: "Nov 2024 - Present",
+    date: "Nov 2024 - Jul 2025",
   },
   {
     title: "Full Stack Developer Intern - HealmeRight",
     description: [
-      "Improved database performance by 40%, reducing query execution time from 1.5s to 800ms for 500+ users, using MongoDB connection pooling and efficient indexing.",
+      "Boosted backend performance by cutting database query times from 1.5s to 800ms and implemented a secure JWT and OTP authentication system for an application serving 5,000+ users.",
       "Built a Winston logging system to track backend errors and login attempts, enhancing debugging and monitoring capabilities.",
       "Developed secure web APIs with JWT and cookies to support user authentication, improving backend processes.",
       "Designed and optimized responsive website components with interactive features using ReactJS, Tailwind CSS, and Framer Motion to enhance user experience.",
@@ -233,13 +244,13 @@ export const WorkExpcontents = [
     date: "Apr 2024 - Jul 2024",
   },
   {
-    title: "Web Developer - Anonymous Squirrels",
+    title: "Web Developer Intern - Anonymous Squirrels",
     description: [
-      "Developed a comprehensive admin application using React, Tailwind CSS, and Material Tailwind, with secure phone OTP authentication via Firebase Authentication.",
-      "Built and optimized RESTful APIs using Firebase Functions, leveraging Node-Cache for performance improvement and implementing pagination with infinite scrolling.",
-      "Utilized Firebase Firestore for efficient data management, enabling admins to control user/vendor profiles, manage inquiries and reports, and implement role-based access control for Superadmin, Admin-1, and Admin-2 roles.",
+      "Developed core application features which contributed to a UI/UX overhaul that helped attract over 100 new customers.",
+      "Built and optimized RESTful APIs using modern web technologies, implementing pagination with infinite scrolling for improved performance.",
+      "Utilized efficient data management systems, enabling role-based access control and comprehensive admin functionality.",
     ],
-    date: "May 2024 - Jul 2024",
+    date: "Jan 2024 - Mar 2024",
   },
   {
     title: "Teaching Assistant - Coding Minutes",
